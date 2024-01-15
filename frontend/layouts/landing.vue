@@ -1,0 +1,4 @@
+<template>
+    <BannerNav />
+    <TheNav />
+</template>

@@ -1,13 +1,12 @@
-<template>
-    <div>
-        Hello World
-    </div>
-</template>
+<script setup lang="ts">
+definePageMeta({
+    title: 'Home',
+    description: 'This is the home page',
+    layout: 'landing',
 
-<script setup>
-
+})
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<template>
+    <DarkModeButton />
+</template>
