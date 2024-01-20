@@ -1,11 +1,15 @@
 <template>
-    <div class="relative w-full">
+    <div class="w-full">
         <ul :class="{ '-left-full': status }"
-            class="flex flex-col justify-start items-center text-3xl h-screen bg-blue-500 gap-y-10 absolute w-full sm:max-w-sm">
+            class="flex flex-col justify-start items-center text-3xl h-screen gap-y-10 absolute w-full">
             <li>
-                <UIcon name="i-heroicons-x-mark" class="w-10 h-10 absolute right-0 z-10" :class="{ hidden: status }" @click="toggleNav!"/>
+                <UIcon name="i-heroicons-x-mark" class="w-16 h-16 absolute right-0 z-10 p-4 m-2" :class="{ hidden: status }"
+                    @click="toggleNav!" />
             </li>
-            <li class="mt-32">Community</li>
+            <li>
+                <input type="text" name="search" id="search" placeholder="Search..." class="rounded-2xl p-2 mt-44 dark:bg-white border-black-500 border-solid border-2"/>
+            </li>
+            <li class="mt-10">Community</li>
             <li>Contribute</li>
             <li>Programs & Events</li>
             <li>Stories</li>
