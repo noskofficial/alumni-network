@@ -1,7 +1,7 @@
 <template>
     <div class="w-full">
         <ul :class="{ '-left-full': status }"
-            class="flex flex-col justify-start items-center text-3xl h-screen gap-y-10 absolute w-full">
+            class="flex flex-col justify-start items-center text-3xl h-screen gap-y-10 absolute w-full bg-white dark:bg-black overscroll-auto">
             <li>
                 <UIcon name="i-heroicons-x-mark" class="w-16 h-16 absolute right-0 z-10 p-4 m-2" :class="{ hidden: status }"
                     @click="toggleNav!" />

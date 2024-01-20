@@ -17,8 +17,8 @@
         <div class="flex">
           <UIcon name="i-heroicons-bars-3" class="w-8 h-8 md:hidden items-center" @click="toggleNav"
             :class="{ hidden: !status }" />
-          <UIcon name="i-heroicons-magnifying-glass" class="w-8 h-8 ml-2" :class="{ hidden: !status }"/>
-          <DarkModeButton v-if="status"/>
+          <UIcon name="i-heroicons-magnifying-glass" class="w-8 h-8 ml-2" :class="{ hidden: !status }" />
+          <DarkModeButton v-if="status" />
         </div>
       </div>
     </div>
@@ -31,4 +31,12 @@ const status = ref(true)
 const toggleNav = () => {
   status.value = !status.value
 }
+
+watch(status, (newValue) => {
+  if (!newValue) {
+    document.body.style.overflowY = 'hidden';
+  } else {
+    document.body.style.overflowY = '';
+  }
+});
 </script>
