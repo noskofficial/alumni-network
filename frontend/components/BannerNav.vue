@@ -9,7 +9,7 @@
                     </NuxtLink>
                 </UButton>
                 <UButton>
-                    <NuxtLink to="/register">
+                    <NuxtLink to="#">
                         Register
                     </NuxtLink>
                 </UButton>
