@@ -10,9 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@nuxt/ui": "^2.9.0",
-    "nuxt": "^3.7.4",
-    "nuxt-svgo": "^4.0.0"
+    "@nuxt/devtools": "^1.0.8",
+    "@nuxt/ui": "^2.12.3",
+    "@nuxtjs/tailwindcss": "^6.11.0",
+    "nuxt": "^3.9.3",
+    "nuxt-svgo": "^4.0.0",
+    "typescript": "^5.3.3"
   }
 }
