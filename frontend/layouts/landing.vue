@@ -4,5 +4,7 @@ import { StoryProgramSection } from '#build/components';
     <BannerNav />
     <TheNav />
     <TheHero />
-    <StoryProgramSection />
+    <section class="mt-5">
+        <StoryProgramSection />
+    </section>
 </template>

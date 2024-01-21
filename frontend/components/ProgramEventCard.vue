@@ -10,7 +10,7 @@
       <!-- event acronym, year |organization -->
       <h3 class="text-xl">SFD, 2023 | NOSK</h3>
       <h3>NOSK Organising SFD, 2023</h3>
-      <p class="text-sm h-20 mt-5 w-64 overflow-hidden text-ellipsis line-clamp-4 whitespace-break-spaces">This is the
+      <p class="text-sm h-20 mt-5 overflow-hidden text-ellipsis line-clamp-4 whitespace-break-spaces">This is the
         description Lorem,
         ipsum dolor sit amet
         consectetur adipisicing elit. Sint possimus, aliquam ipsa
