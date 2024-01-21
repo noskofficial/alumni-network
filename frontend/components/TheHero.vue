@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-purple-300 bg-[url('/assets/png/ncit_college.png')]">
+    <div class="bg-[url('/assets/png/ncit_college.png')]">
       <div class="flex flex-col justify-center items-center h-[496px]">
         <img src="~/assets/png/ncit.png" alt="NCIT Logo" class="w-40">
         <h1 class="text-3xl sm:text-5xl text-white mt-10">NCIT Alumni Network</h1>

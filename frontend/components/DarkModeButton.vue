@@ -21,7 +21,7 @@ const isDark = computed({
       class="p-0 ml-2 mr-2"
     >
     <UIcon :name="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'"
-        class="w-8 h-8 md:hidden items-center" />
+        class="w-8 h-8 items-center" />
     </UButton>
 
     <template #fallback>

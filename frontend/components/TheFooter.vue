@@ -2,7 +2,7 @@
   <div
     class="flex flex-col md:flex-row w-[95%] md:w-[90%] lg:w-[85%] xl:w-[65%] mx-auto py-10 flex-wrap justify-between gap-x-16">
     <!-- social media section -->
-    <div class="w-[25%] mt-2">
+    <div class="md:w-[25%] mt-2">
       <h2 class="text-2xl mb-6">Social Media</h2>
       <ul class="flex flex-col">
         <li>
@@ -66,7 +66,7 @@
     </div>
 
     <!-- about this site section -->
-    <div class="w-[25%] mt-2">
+    <div class="md:w-[25%] mt-2">
       <h2 class="text-2xl mb-6">About This Site</h2>
       <ul class="flex flex-col">
         <li>

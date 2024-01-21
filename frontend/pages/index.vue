@@ -8,5 +8,5 @@ definePageMeta({
 </script>
 
 <template>
-    <DarkModeButton />
+    <!-- <DarkModeButton /> -->
 </template>
