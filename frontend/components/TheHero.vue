@@ -23,7 +23,7 @@
       :image="ncitImage" bg-color="bg-[#045F89] dark:bg-[rgb(7,29,44)]" direction="flex-row-reverse" />
     <AlumniArticle title="Alumni Nipesh Shrestha" title-event="on NCIT 25th Anniversary"
       description="Nipesh Talked about his life at NCIT, what he learnt what he did, how life was, how many pushups he did in college and how he managed Gym and study at the same time... "
-      :image="ncitImage" bg-color="bg-[rgb(7,29,44)] dark:bg-[#045F89]" />
+      :image="ncitImage" bg-color="bg-[rgb(7,29,44)] dark:bg-[#045F89] text-white" />
   </div>
 </template>
 
