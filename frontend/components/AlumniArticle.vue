@@ -1,6 +1,6 @@
 <template>
   <div :class="bgColor">
-    <div class="w-[90%] md:w-[80%] lg:w-[70%] xl:w-[65%] mx-auto">
+    <div class="w-[95%] md:w-[90%] lg:w-[85%] xl:w-[65%] mx-auto">
       <div class="flex justify-center flex-wrap md:flex-nowrap" :class="direction">
         <div class="flex flex-col">
           <h3 class="text-3xl text-white mt-5">{{ title }}
@@ -29,7 +29,6 @@ const { title, titleEvent, description, image, link } = defineProps({
   direction: String,
   bgColor: String,
 })
-
 </script>
 
 <style></style>

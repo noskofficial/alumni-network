@@ -1,5 +1,8 @@
+
+import { StoryProgramSection } from '#build/components';
 <template>
     <BannerNav />
     <TheNav />
-    <TheHero/>
+    <TheHero />
+    <StoryProgramSection />
 </template>

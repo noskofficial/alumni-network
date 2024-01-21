@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen">
+  <div>
     <div class="bg-purple-300 bg-[url('/assets/png/ncit_college.png')]">
       <div class="flex flex-col justify-center items-center h-[496px]">
         <img src="~/assets/png/ncit.png" alt="NCIT Logo" class="w-40">
@@ -10,15 +10,15 @@
 
     <AlumniArticle title="Alumni Nipesh Shrestha" title-event="on NCIT 25th Anniversary"
       description="Nipesh Talked about his life at NCIT, what he learnt what he did, how life was, how many pushups he did in college and how he managed Gym and study at the same time... "
-      image="/_nuxt/assets/png/ncit.png" link="/alumni/nipesh-shrestha" bg-color="bg-[#045F89]"
-      direction="flex-row-reverse" />
+      :image="ncitImage" bg-color="bg-[#045F89]" direction="flex-row-reverse" />
     <AlumniArticle title="Alumni Nipesh Shrestha" title-event="on NCIT 25th Anniversary"
       description="Nipesh Talked about his life at NCIT, what he learnt what he did, how life was, how many pushups he did in college and how he managed Gym and study at the same time... "
-      image="/_nuxt/assets/png/ncit.png" link="/alumni/nipesh-shrestha" bg-color="bg-[rgb(7,29,44)]" />
+      :image="ncitImage" bg-color="bg-[rgb(7,29,44)]" />
   </div>
 </template>
 
 <script lang="ts" setup>
+import ncitImage from '~/assets/png/ncit.png'
 
 </script>
 

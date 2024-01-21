@@ -23,6 +23,4 @@ const { status, toggleNav } = defineProps({
     status: Boolean,
     toggleNav: Function
 })
-console.log("status", status)
-
 </script>
