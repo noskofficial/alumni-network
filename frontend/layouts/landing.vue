@@ -4,7 +4,10 @@ import { StoryProgramSection } from '#build/components';
     <BannerNav />
     <TheNav />
     <TheHero />
-    <section class="mt-5">
+    <section class="py-5 bg-gray-50">
         <StoryProgramSection />
+    </section>
+    <section>
+        <AboutAlumni/>
     </section>
 </template>
