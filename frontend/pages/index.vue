@@ -9,4 +9,11 @@ definePageMeta({
 
 <template>
     <!-- <DarkModeButton /> -->
+    <TheHero />
+    <section class="bg-gray-50 dark:bg-gray-800">
+        <StoryProgramSection />
+    </section>
+    <section>
+        <AboutAlumni />
+    </section>
 </template>
